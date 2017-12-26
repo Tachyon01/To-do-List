@@ -25,6 +25,7 @@ h1
 	text-transform: uppercase;
 	font-size: 24px;
 	font-weight: normal;
+	cursor: default;
 }
 
 .fa-chevron-down 
@@ -68,6 +69,17 @@ li:hover span
 {
 	width: 40px;
 	opacity: 1.0;
+	cursor: pointer;
+}
+
+i:hover
+{
+	cursor: pointer;
+}
+
+li:hover
+{
+	cursor: default;
 }
 
 input
