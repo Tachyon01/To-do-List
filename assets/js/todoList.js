@@ -19,7 +19,7 @@ $("ul").on("click", "span",function(event) {
 });
 
 //New todos
-$("#newTodo").keypress(function(event){
+$("input[type='text']").keypress(function(event){
 	if (event.which === 13)
 	{
 		var todo = $(this).val();
